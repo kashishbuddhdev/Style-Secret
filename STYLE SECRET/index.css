@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #ece8e8;
+}
+
+/* header */
+.head-top {
+    display: flex;
+    background-color: rgb(135 75 137 / 69%);
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 12px 25px;
+
+}
+
+.hcc {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.collection span {
+    padding-right: 6px;
+}
+
+.logo-txt {
+    font: 500 2.25rem/1 orpheuspro, Arial, sans-serif;
+    font-size: 30px;
+}
+
+.icons-png img {
+    width: 42px;
+}
+
+.solid-white i {
+    font-size: 16px;
+}
+
+.right-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.solid-white svg {
+    height: 20px;
+    width: 20px;
+    fill: white;
+}
+
+.solid-white svg:hover {
+    fill: yellow;
+}
+
+.search:hover #search {
+    fill: yellow;
+}
