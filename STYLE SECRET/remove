@@ -1,0 +1,67 @@
+ <!-- top header -->
+ <div class="header-main">
+    <div class="top-head">
+        <div class="call flex">
+            <div class="call-icon">
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="call-text">
+                <p> +91 7862877687</p>
+            </div>
+        </div>
+
+        <div class="discount">
+            <p> 25% OFF Up To Rs.699</p>
+        </div>
+        <div class="user">
+            <div class="user-icon flex">
+                <i class="fa-solid fa-user"></i>
+                <div class="user-text">
+                    <p>Sign-Up</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- CSS -->
+.top-head{
+    width: 100%;
+    height: 100%;
+     color: white;
+     background-color:coral;
+     display: flex;  
+     align-items: center;
+     justify-content: space-between;
+     padding: 4px 50px;
+     padding-top:8px ;
+ }
+ .discount{
+    display: flex;
+    justify-content: center;
+ }
+ .nav{
+     background-color: rgb(200, 130, 130);
+     display: flex;
+     justify-content: space-between;
+    padding: 0px 13px;
+    align-items: center;
+ }
+
+     <!-- navbar -->
+     <div class="navigation-bar">
+        <div class="nav">
+        <div class="logo-txt">
+       STYLE SECRET
+        </div>
+        <div class="HCC">
+            <div class="home">HOME</div>
+            <div class="collection">COLLECTION</div>
+            <div class="contact"> CONTACT</div>
+        </div>
+        <div class="right-logo">
+            <div class="search"> <i class="fa-solid fa-magnifying-glass"></i></div>
+           <div class="bag"> <i class="fa-solid fa-bag-shopping"></i></div>
+           <div class="heart"><i class="fa-regular fa-heart"></i></div> 
+        </div>
+        </div>
+    </div>

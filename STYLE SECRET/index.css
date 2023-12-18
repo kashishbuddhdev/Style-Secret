@@ -3,62 +3,126 @@
     padding: 0;
     box-sizing: border-box;
 }
+.logo-txt{
+    font: 500 2.25rem/1 orpheuspro,Arial,sans-serif;
+   font-size: 30px;
+}
+
+p {
+    margin: 0 !important;
+    margin-block-end: 0;
+}
 
 body {
     font-family: 'Nunito Sans', sans-serif;
     background-color: #ece8e8;
+
+}
+/* header-start */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
 }
 
-/* header */
-.head-top {
+.nav {
+    background-color: #692338eb;
+    z-index: 99;
     display: flex;
-    background-color: rgb(135 75 137 / 69%);
-    justify-content: space-between;
-    color: white;
-    align-items: center;
+    justify-content:space-between ;
     padding: 12px 25px;
-
+    align-items: center;
+    color: white;
+    
 }
 
+.logo-png img {
+    width: 42px;
+
+}
 .hcc {
     display: flex;
     gap: 20px;
-    font-size: 20px;
+    font-size: 15px;
 }
-
-.collection span {
-    padding-right: 6px;
+.solid-white i{
+   font-size: 16px;
 }
+/* svg-images */
 
-.logo-txt {
-    font: 500 2.25rem/1 orpheuspro, Arial, sans-serif;
-    font-size: 30px;
-}
-
-.icons-png img {
-    width: 42px;
-}
-
-.solid-white i {
-    font-size: 16px;
-}
-
-.right-icons {
+.right-logo {
     display: flex;
     gap: 20px;
     font-size: 20px;
-}
 
-.solid-white svg {
+}
+.solid-white svg{
     height: 20px;
     width: 20px;
     fill: white;
 }
-
-.solid-white svg:hover {
-    fill: yellow;
+.solid-white svg:hover{
+    fill:red;
+}
+.search:hover #search{
+    fill:red;
+}
+.collection span{
+    padding-right: 6px;
+   
 }
 
-.search:hover #search {
-    fill: yellow;
+/* header-end */
+
+
+/* hero slider */
+.carousel-item img{ 
+    width: 100%; 
+    height: 600px;
 }
+
+/* popular collection */
+.popular-collection-heading h1{
+    font: 500 2.25rem/1 orpheuspro,Arial,sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 26px;
+    letter-spacing: 5px;
+}
+.owl-item {
+    width: 128.906px;
+    margin-right: 10px;
+    background:powderblue; 
+}
+.owl-carousel {
+    padding-bottom: 50px;
+}
+
+/* our-designers */
+.our-designers h1{
+    text-align: center;
+    font: 500 2.25rem/1 orpheuspro,Arial,sans-serif;
+    font-size: 60px;
+    letter-spacing: 5px;
+    padding-bottom: 80px;
+}
+.designers-name h2{
+    text-align: center;
+    padding-right: 466px;
+}
+.designers-design{
+    text-align: center;
+}
+.designers-design img{
+    height: 480px;
+    width: 630px;
+    padding-top: 16px;
+}
+.designers-info{
+    text-align: center;
+   padding: 0 390px;
+   padding-top: 25px;
+   padding-bottom: 55px;
+}
+

@@ -1,0 +1,62 @@
+font-family
+/* font links */
+<link href="https://fonts.googleapis.com/css2?family=Karma:wght@600;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,500;1,6..12,500&family=Open+Sans:ital,wght@0,300;0,500;1,400&family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+
+/* icons */
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+/* css */
+font-family: 'Karma', serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+/* font-color */
+white,black
+
+
+#a72c4faf
+
+
+/* background-color */
+background-color:#ece8e8
+
+590d22 n
+800f2f n
+a4133c   y
+c9184a  n
+ff4d6d  n
+ff758f  y
+ff8fa3  n
+ffb3c1  n
+ffccd5  n
+ffccd5  n
+fff0f3  n
+
+
+
+
+fbf8cc  n
+fde4cf  n
+ffcfd2  n
+f1c0e8  n
+cfbaf0  n
+a3c4f3 n
+90dbf4 n 
+8eecf5 n 
+98f5e1 n 
+b9fbc0 n
+
+
+
+
+
+
+
+
+#541a2b magenta
+new nav-foot-color:
+#692338eb
+
+/* header and footer */
+background-color:rgb(200,130,130);
