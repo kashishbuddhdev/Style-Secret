@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th{
+            border: 1px solid black;
+        }
+        td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- <th>sr_no</th> -->
+        <!-- <th>D_ID</th> -->
+        <th>Username</th>
+        <th>Email</th>
+        <th>password</th>
+        <th>Mobile-no</th>
+        <th>Start_date</th>
+        <th>End_date</th>
+        <th>Amount</th>
+        <td>
+            <tr>
+                <form action="desi-insert.php" method="get">
+                    <form action="desi-view.php" method="get">
+                        <form action="desi-del.php" method="get">
+
+                <!-- <td><input type="number" name="sr_no" placeholder="enter your no" required></td> -->
+              <!-- <td> <input type="number" name="D_ID" placeholder="enter your id" required></td>  -->
+               <td> <input type="text" name="Username" placeholder="enter your username" required></td>
+                <td><input type="text" name="Email" placeholder="enter your e-mail" required></td>
+                <td><input type="password" name="Password" placeholder="enter your password" required></td>
+                <td><input type="number" name="Mobile-no" placeholder="enter your Mobile-no" required></td>
+                <td><input type="date" name="Start_date" placeholder="enter your startdate" required></td>
+                <td><input type="date" name="start" placeholder="enter your enddate" required></td>
+                <td><input type="number" name="Amount" placeholder="enter amount" required></td>
+                <button type="submit">Login</button>
+            </tr>
+        </td>
+    </table>
+</body>
+</html>

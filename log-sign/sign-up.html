@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <link rel="stylesheet" href="sign-up.css">
+    <style>body {
+      font-family: "Nunito Sans", sans-serif;
+      background-color: #f5dece;
+      }
+      .signup-container{
+        background: #fff;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      width: 328px;
+      text-align: center;
+      box-shadow:-22px 0px 18px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);;
+      }
+    .h1-signup h1{
+        padding-top: 30px;
+        color:#541a2b ;
+    }
+    .h1-signin-heading h1{
+      color: white;
+    }
+    .signup-detail p {
+        font-size: 14px;
+        color: #541a2b;
+        
+    }
+    .sign-up-btn {
+        border-radius: 20px;
+        border: 1px solid #541a2b;
+        background:#541a2b;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px 45px;
+        letter-spacing: 1px;
+        margin-top: 5px;
+        margin: 0 auto;
+        width: 52px;
+    }
+    .sign-up-btn a{
+      text-decoration: none;
+      color: #fff;
+    }
+    
+    /* left */
+    .main-card-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 140px;
+    
+    }
+    .left-signup-form{
+      background:#541a2b;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      height: 400px;
+      padding: 20px;
+      width: 328px;
+      text-align: center;
+      box-shadow: 27px 0px 50px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    }
+    .e-mail{
+        padding-top: 10px;
+    }
+    .password{
+        padding-top: 10px;
+    
+    }
+    .email-password{
+        padding-top: 10px;
+    }
+    .email-password input{
+        padding: 8px;
+      width: 225px;
+      border: none;
+      background-color: #eee;
+    }
+    .password input{
+        padding: 8px;
+      width: 225px;
+      border: none;
+      background-color: #eee;
+    }
+    .username input{
+        padding: 8px;
+      width: 225px;
+      border: none;
+      background-color: #eee;
+    }
+    .e-mail input{
+        padding: 8px;
+      width: 225px;
+      border: none;
+      background-color: #eee;
+    }
+    .last-signup-btn button{
+       margin-top: 18px;
+        border-radius: 20px;
+        border: 1px solid white;
+        background:white;
+        color: #541a2b;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px 45px;
+        letter-spacing: 1px;
+    }
+    .mobile-no {
+      padding-top: 10px;
+    }
+    .mobile-no input{
+      padding: 8px;
+      width: 225px;
+      border: none;
+      background-color: #eee;
+    }
+    .startdate{
+      padding-top: 10px;
+    }
+    .startdate input{
+      padding: 8px;
+      width: 225px;
+      border: none;
+      background-color: #eee;
+    }
+    .enddate{
+      padding-top: 10px;
+    }
+    .enddate input{
+      padding: 8px;
+      width: 225px;
+      border: none;
+      background-color: #eee;
+    }
+    .amount{
+      padding-top: 10px;
+      color: white;
+    }
+    .amount input{
+      padding: 8px;
+      border: none;
+      background-color: #eee;
+    }
+    .h1-signin-heading h1{
+      margin-top: 5px;
+      margin-bottom:5px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="main-card-container">
+    <!-- right-card -->
+    <div class="signup-container">
+        <div class="h1-signup">
+            <h1>Style Secret</h1>
+        </div>
+        <div class="signup-detail">
+            <p>To keep connected with us please login</p>
+              <p>with your personal information</p>
+        </div>
+        <div class="package-detail">
+          <h3>Package Details</h3>
+          <p>For 3 months : 499₹ </p>
+            <p>For 6 months : 899₹</p>
+            <p>For 1 year : 1899₹</p>
+      </div>
+        <div class="sign-up-btn">
+            <a href="sign-in.html">SIGN IN</a>
+    </div>
+    </div>
+    <!-- left-card -->
+    <div class="left-signup-form">
+        <div class="h1-signin-heading">
+          <h1>Create Account</h1>
+        </div>
+        <form action="sign-up-succesfully.php" method="get">
+        <div class="username">
+          <input type="text" placeholder="Username" name="Username" required>
+        </div>
+        <div class="e-mail">
+            <input type="email" placeholder="Email" name="Email" required>
+          </div>
+          <div class="password">
+            <input type="password" placeholder="Password" name="Password"required>
+          </div>
+          <div class="mobile-no">
+            <input type="text" placeholder="number" name="Mobile-no"required>
+          </div>
+          <div class="startdate">
+            <input type="date"  name="Start_date"required>
+          </div>
+          <div class="enddate">
+            <input type="date"  name="End_date"required>
+          </div>
+         
+        <div class="last-signup-btn">
+         <a href="sign-up-succesfully.php"><button>SIGN UP</button></a>
+        </div>
+      </div>
+      </div>
+    </form>
+</body>
+</html>

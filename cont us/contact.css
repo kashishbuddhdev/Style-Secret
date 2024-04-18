@@ -1,0 +1,498 @@
+/* cont-img start */
+body{
+    background-color: #f1f1f1;
+}
+
+@font-face {
+  font-family: orpheuspro;
+  src: url(https://use.typekit.net/af/972118/000000000000000000016ea6/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3)
+      format("woff2"),
+    url(https://use.typekit.net/af/972118/000000000000000000016ea6/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3)
+      format("woff"),
+    url(https://use.typekit.net/af/972118/000000000000000000016ea6/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3)
+      format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: orpheuspro;
+  src: url(https://use.typekit.net/af/320790/000000000000000000015d5b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3)
+      format("woff2"),
+    url(https://use.typekit.net/af/320790/000000000000000000015d5b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3)
+      format("woff"),
+    url(https://use.typekit.net/af/320790/000000000000000000015d5b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3)
+      format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: orpheuspro;
+  src: url(https://use.typekit.net/af/07139b/000000000000000000016ea5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+      format("woff2"),
+    url(https://use.typekit.net/af/07139b/000000000000000000016ea5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+      format("woff"),
+    url(https://use.typekit.net/af/07139b/000000000000000000016ea5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3)
+      format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: orpheuspro;
+  src: url(https://use.typekit.net/af/3fe6c5/00000000000000003b9aff70/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3)
+      format("woff2"),
+    url(https://use.typekit.net/af/3fe6c5/00000000000000003b9aff70/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3)
+      format("woff"),
+    url(https://use.typekit.net/af/3fe6c5/00000000000000003b9aff70/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3)
+      format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+
+/* header */
+.header-main {
+  background-color: #541a2b;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  padding: 2px;
+}
+.ss-mail {
+  padding: 15px 47px;
+}
+.logo-txt {
+  font: 500 2.25rem/1 orpheuspro, Arial, sans-serif;
+  margin-top: 2px;
+}
+.logo-txt a{
+  color:white;
+  text-decoration: none;
+}
+.top-head-left {
+  display: flex;
+}
+.top-head-center a{
+  text-align: center;
+}
+
+/* right-svg */
+.top-head-right {
+  display: flex;
+  gap: 65px;
+}
+.solid-white svg {
+  height: 18px;
+  width: 25px;
+  fill: white;
+}
+.admin i{
+  margin-right: 95px;
+}
+.admin a{
+  color: white;
+}
+/* end-header */
+
+/* nav */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.nav {
+  background-color: white;
+  z-index: 99;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 18px;
+  align-items: center;
+  color: #541a2b;
+}
+
+.hcc {
+  display: flex;
+  gap: 100px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.contact-us a{
+  color: #541a2b;
+  text-decoration: none;
+ 
+}
+.home a{
+ color: #541a2b;
+    text-decoration: none;
+}
+.collection span {
+  padding-right: 6px;
+}
+.dropdown button{
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: #541a2b;
+  padding: 0%;
+}
+.dropdown button:hover{
+background-color:none;
+color:black ;
+}
+.btn:hover {
+  color:transparent;
+  background-color:transparent;
+  border-color: transparent;
+}
+
+.dropdown-item:active {
+  background-color:  #541a2b;
+}
+.rent-cus a{
+  color: #541a2b;
+  text-decoration: none;
+}
+
+/* nav-end */
+
+  
+.cont-bg-img{
+    background-image: url(contecthead.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:-149px 24px;
+    height: 570px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5dece;
+}
+/* cont-us start */
+.contact-page-style-secret{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+.cont-heading h1
+{
+    font: 500 2.25rem/1 orpheuspro,Arial,sans-serif;
+
+}
+.cont-us{
+    width: 40%;
+}
+.our-info-title{
+    padding-bottom: 50px;
+}
+.cont-text{
+    padding-bottom: 20px;
+
+}
+
+.cont-text a{
+    text-decoration: none;
+    color: black;
+}
+.call,.mail{
+    display: flex;
+}
+.call p,.mail p{
+    padding-left: 10px;
+    color: gray;
+}
+.location{
+    width: 50%;
+}
+.map{
+    width: 100%;
+}
+    .map iframe{
+        height: 300px;
+        width: 100%;
+    }
+.social-text p{
+    font-size: 20px;
+    color: gray;
+}
+.social-icon span{
+  padding: 0 5px;
+}
+.social-icon i{
+    font-size: 23px;
+}
+/* send-messaeg start */
+.messaeg{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-top: 10px;
+    height: 525px;
+}
+.messaeg-img {
+    width: 418px;
+    background-image: url(png_20231211_191325_0000.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 143px 300px;
+}
+.our-info h1{
+    font: 500 2.25rem/1 orpheuspro,Arial,sans-serif;
+
+}
+
+.messaeg-form {
+    width: 50%;
+}
+.messeag-heading{
+    padding-bottom: 30px;
+}
+.comment input{
+    width: 100%;
+    border: 1px solid #ddd;
+    height: 200px;
+}
+.name-phone-no{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.name{
+    width: 49%;
+}
+.name input{
+    border: 1px solid #ddd;
+    height: 50px;
+    width: 100%;
+}
+.phone-no{
+    width: 49%;
+}
+.phone-no input{
+    border: 1px solid #ddd;
+    height: 50px;
+    width: 100%;
+}
+.send input{
+    background-color: #541a2b;
+    border: 1px solid #ddd;
+    color: #f1f1ff;
+    padding: 5px 7px;
+    margin-top: 8px;
+}
+/* footer */
+
+.footer {
+    display: inline-block;
+    background-color: #541a2b;
+    color: white;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .footer-divs {
+    height: 299px;
+    display: flex;
+    justify-content: space-around;
+    padding: 58px 39px;
+  }
+  .footer p {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .Aboutus-footer h5 {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 35px;
+    letter-spacing: 3px;
+    font-size: 25px;
+  }
+  
+  .Aboutus-footer p {
+    /* width: 400px; */
+    font-size: 12px;
+    text-align: center;
+    margin: 0px;
+    margin: 7px;
+    letter-spacing: 3px;
+  }
+  .contectus-footer p {
+    font-size: 12px;
+    text-align: center;
+  
+    margin: 15px;
+    letter-spacing: 3px;
+  }
+  .contectus-footer h5 {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 35px;
+    letter-spacing: 3px;
+    font-size: 25px;
+  }
+  .footer-map iframe {
+    width: 300px;
+    height: 200px;
+  }
+  .social-icon {
+    font-size: 23px;
+    display: flex;
+  }
+  
+  .social-icon i {
+    padding: 0px 25px;
+  }
+  .insta-icon-footer i{
+      transition: 300ms;
+  }
+  .insta-icon-footer i:hover {
+    color: #bc2a8d;
+  }
+  .twitter-icon-footer i:hover{
+      color: #1DA1F2;
+  }
+  .twitter-icon-footer i{
+      transition: 300ms;
+  }
+  .facebook-icon-footer i:hover{
+      color: #2E51D6;
+  }
+  .facebook-icon-footer i{
+      transition: 300ms;
+  
+  }
+  
+  .style-secret {
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 3px;
+  }
+  .style-secret h3 a{
+    color: white;
+    text-decoration: none;
+  }
+  /* footer */
+
+.footer {
+  display: inline-block;
+  background-color: #541a2b;
+  color: white;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.footer-divs {
+  height: 299px;
+  display: flex;
+  justify-content: space-around;
+  padding: 58px 39px;
+}
+.footer p {
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.Aboutus-footer h5 {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  letter-spacing: 3px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.Aboutus-footer a{
+  font-size: 12px;
+  text-align: center;
+  margin: 0px;
+  margin: 7px;
+  letter-spacing: 3px;
+  color: white;
+  text-decoration: none;
+}
+.contectus-footer p {
+  font-size: 12px;
+  text-align: center;
+  margin: 15px;
+  letter-spacing: 3px;
+}
+.contectus-footer h5 {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 31px;
+  letter-spacing: 3px;
+  font-size: 25px;
+}
+.footer-map iframe {
+  width: 300px;
+  height: 200px;
+}
+.social-icon {
+  font-size: 23px;
+  display: flex;
+}
+
+.social-icon i {
+  padding: 0px 25px;
+}
+.insta-icon-footer i{
+    transition: 300ms;
+}
+.insta-icon-footer i:hover {
+  color: #bc2a8d;
+}
+.twitter-icon-footer i:hover{
+    color: #1DA1F2;
+}
+.twitter-icon-footer i{
+    transition: 300ms;
+}
+.facebook-icon-footer i:hover{
+    color: #2E51D6;
+}
+.facebook-icon-footer i{
+    transition: 300ms;
+
+}
+
+.style-secret{
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 3px;
+}
+.style-secret h3 a{
+  color: white;
+  text-decoration: none;
+}
+
+
+ 
+@media only screen and (min-width : 280px ) and (max-width : 767px){
+    .cont-bg-img{
+        background-position: -345px -70px;
+    }
+    .cont-us,.location{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .messaeg{
+        flex-wrap: wrap-reverse;
+    }
+    .messaeg-img,.messaeg-form{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .messaeg-img img {
+        width: 100%;
+    }
+}

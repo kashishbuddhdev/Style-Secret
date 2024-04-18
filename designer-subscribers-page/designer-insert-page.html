@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Nunito Sans', sans-serif;
+            /* background-color: rgb(254, 246, 231);    */
+            background-color: #f1f1f1f1;
+
+        }
+
+        /* nav-css */
+        /* Designer subscriber page */
+        .designer-subscriber-page-h1 h1 {
+            color: #541a2b;
+            text-align: center;
+            padding: 32px 6px;
+            font: 500 2.25rem/1 orpheuspro, Arial, sans-serif;
+            font-size: 35px;
+            letter-spacing: 2px;
+
+        }
+
+        .designer-subcriber-all-a-tags {
+            background-color: #541a2b;
+            padding: 12px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .designer-subcriber-all-a-tags a {
+            color: white;
+            text-decoration: none;
+            font-size: 10px;
+            font: 500 1.25rem/1 orpheuspro, Arial, sans-serif;
+
+        }
+
+        /* end */
+        input {
+            border: none;
+            padding-top: 17px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid gray;
+            width: 100%;
+            background-color: #f1f1f1f1;
+        }
+
+        .designer-insert-form {
+            padding: 10px 290px;
+            width: 60%;
+
+        }
+
+        .designer-insert-details {
+            margin-top: 30px;
+        }
+
+        .designer-insert-details button {
+            border-radius: 5px;
+            padding: 6px;
+            color: white;
+            background-color: #541a2b;
+        }
+
+        .designer-insert-page h2 {
+            text-align: center;
+            padding: 30px;
+            font: 500 2.25rem/1 orpheuspro, Arial, sans-serif;
+            font-size: 30px;
+        }
+
+        @font-face {
+            font-family: orpheuspro;
+            src: url(https://use.typekit.net/af/972118/000000000000000000016ea6/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),
+                url(https://use.typekit.net/af/972118/000000000000000000016ea6/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),
+                url(https://use.typekit.net/af/972118/000000000000000000016ea6/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");
+            font-weight: 700;
+            font-style: normal;
+            font-display: auto;
+        }
+
+        @font-face {
+            font-family: orpheuspro;
+            src: url(https://use.typekit.net/af/320790/000000000000000000015d5b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"),
+                url(https://use.typekit.net/af/320790/000000000000000000015d5b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"),
+                url(https://use.typekit.net/af/320790/000000000000000000015d5b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype");
+            font-weight: 400;
+            font-style: italic;
+            font-display: auto;
+        }
+
+        @font-face {
+            font-family: orpheuspro;
+            src: url(https://use.typekit.net/af/07139b/000000000000000000016ea5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),
+                url(https://use.typekit.net/af/07139b/000000000000000000016ea5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),
+                url(https://use.typekit.net/af/07139b/000000000000000000016ea5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");
+            font-weight: 400;
+            font-style: normal;
+            font-display: auto;
+        }
+
+        @font-face {
+            font-family: orpheuspro;
+            src: url(https://use.typekit.net/af/3fe6c5/00000000000000003b9aff70/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("woff2"),
+                url(https://use.typekit.net/af/3fe6c5/00000000000000003b9aff70/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("woff"),
+                url(https://use.typekit.net/af/3fe6c5/00000000000000003b9aff70/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("opentype");
+            font-weight: 500;
+            font-style: normal;
+            font-display: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="designer-subcriber-nav">
+        <div class="designer-subcriber-all-a-tags">
+            <a href="designer-subsciber-page.html">Home</a>
+            <a href="designer-insert-page.html">Insert</a>
+            <a href="designer-update-page.html">Update</a>
+            <a href="designer-delete-page.html">Delete</a>
+
+        </div>
+    </div>
+
+    <div class="designer-insert-page">
+        <h2>Insert Form</h2>
+    </div>
+    <div class="designer-insert-form">
+        <form>
+            <div class="designer-insert-details">
+                01. Designer's ID<br><input type="number" name="d_id" placeholder="Your ID" required><br>
+
+            </div>
+            <div class="designer-insert-details">
+                02. Designer's name<br> <input type="text" name="username" placeholder="Your Name" required><br>
+
+            </div>
+
+            <div class="designer-insert-details">
+                03. Designer's expertise?<br> <input type="expertise" name="expertise" placeholder="enter your expertise"
+                    required><br>
+            </div>
+
+            <div class="designer-insert-details">
+                04. Designer's address?<br> <input type="text" name="address" placeholder="address"
+                    required><br>
+
+            </div>
+            <div class="designer-insert-details">
+                05. Designer's email?<br><input type="text" name="e-mail" placeholder="Email" required><br>
+
+            </div>
+            
+            <div class="designer-insert-details">
+                06. Designer's mobile-no?<br> <input type="number" name="mobile-no" placeholder="your mobile-no" required><br>
+
+            </div>
+            <div class="designer-insert-details">
+                07. Designer's photo-upload?<br>  <input type="file" id="photo" name="photo" accept="image/* required "><br>
+
+
+            </div>
+            <div class="designer-insert-details">
+                <button type="submit">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

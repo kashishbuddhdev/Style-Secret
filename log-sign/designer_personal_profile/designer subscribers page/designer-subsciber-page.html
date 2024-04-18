@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="designer-subcriber-page.css">
+    <style>
+        form{
+            margin-top: 0;
+        }
+        .designer-subscriber-page-h1 h1 {
+ padding-bottom: 6px;
+
+}
+    </style>
+</head>
+
+<body>
+    <!-- <-----------designer-subscriber page-------->
+    <div class="designer-subcriber-nav">
+        <div class="designer-subcriber-all-a-tags">
+            <a href="designer-subsciber-page.html">Home</a>
+            <a href="designer-insert-page.html">Insert</a>
+            <a href="designer-update-page.html">Update</a>
+            <a href="designer-delete-page.html">Delete</a>
+
+        </div>
+    </div>
+    <div class="designer-subscriber-page-h1">
+        <h1>Designers Page</h1>
+    </div>
+
+    <!-- detail form -->
+    <div class="designer-form-details">
+        <form action="dprofiledatasuccess.php" method="get">
+
+            <h2 class="fill-info">FILL OUT ALL THE DETAILS</h2>
+            <label for="firstname">Designer Name:</label>
+            <input type="text" id="firstname" name="firstname" required>
+
+            <label for="expertise">Expertise:</label>
+            <textarea id="expertise" name="expertise" rows="4" required></textarea>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <label for="desiger-email">Email:</label>
+            <textarea id="desiger-email" name="desiger-email" rows="4" required></textarea>
+
+            <label for="contect_details">Mobile-no:</label>
+            <textarea id="contect_details" name="contect_details" rows="4" required></textarea>
+
+            <label for="photo">Photo Upload:</label>
+            <input type="file" id="photo" name="photo" accept="image/*">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <!-- end      -->
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+/* #ff416c 
+#ff4b2b */
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #f5dece;
+}
+.form-signin {
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
+}
+
+.signin-container {
+  background: #fff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 328px;
+  text-align: center;
+  box-shadow:-22px 0px 18px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);;
+}
+.h1-signin-heading {
+  padding-top: 10px;
+  color: #541a2b;
+}
+.after-h1 p{
+  color: #541a2b;
+}
+.email-password input {
+  padding: 10px;
+  width: 225px;
+  border: none;
+  background-color: #eee;
+}
+.email-password {
+  padding-top: 10px;
+}
+.forgot-password{
+  font-size: 13px;
+  color: #541a2b;
+}
+.after-h1{
+  font-size: 13px;
+
+}
+.sign-up-btn a{
+  border-radius: 20px;
+  background-color:white;
+  color: #541a2b;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.sign-up-btn{
+  margin-top: 35px;
+}
+
+
+/* right-card */
+.right-signin {
+  color: white;
+  background: #541a2b;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 345px;
+  width: 328px;
+  text-align: center;
+  box-shadow: 27px 0px 50px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.h1-web-name{
+    padding-top: 58px;
+}
+
+.signin-detail p {
+    font-size: 14px; 
+}
+.sign-in-btn button{
+    border-radius: 20px;
+    border: 1px solid white;
+    background:#541a2b;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}

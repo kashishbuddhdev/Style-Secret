@@ -1,0 +1,102 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #f5dece;
+  }
+  .signup-container{
+    background: #fff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 328px;
+  text-align: center;
+  box-shadow:-22px 0px 18px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);;
+  }
+.h1-signup h1{
+    padding-top: 58px;
+    color:#541a2b ;
+}
+.h1-signin-heading h1{
+  color: white;
+}
+.signup-detail p {
+    font-size: 14px;
+    color: #541a2b;
+    
+}
+.sign-up-btn {
+    border-radius: 20px;
+    border: 1px solid #541a2b;
+    background:#541a2b;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin: 0 auto;
+    width: 52px;
+}
+.sign-up-btn a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* left */
+.main-card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+
+}
+.left-signup-form{
+  background:#541a2b;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 397px;
+  width: 328px;
+  text-align: center;
+  box-shadow: 27px 0px 50px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.e-mail{
+    padding-top: 10px;
+}
+.phone-number{
+    padding-top: 10px;
+
+}
+.email-password{
+    padding-top: 10px;
+}
+.email-password input{
+    padding: 8px;
+  width: 225px;
+  border: none;
+  background-color: #eee;
+}
+.phone-number input{
+    padding: 8px;
+  width: 225px;
+  border: none;
+  background-color: #eee;
+}
+.username input{
+    padding: 8px;
+  width: 225px;
+  border: none;
+  background-color: #eee;
+}
+.e-mail input{
+    padding: 8px;
+  width: 225px;
+  border: none;
+  background-color: #eee;
+}
+.last-signup-btn button{
+   margin-top: 18px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background:white;
+    color: #541a2b;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+}
